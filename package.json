@@ -1,0 +1,23 @@
+{
+  "name": "webpack-playground",
+  "version": "1.0.0",
+  "description": "webpack playground",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot",
+    "build": "webpack --progress --hide-modules",
+    "dist": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1",
+    "cross-env": "^1.0.5",
+    "hash-assets-webpack-plugin": "^0.2.0",
+    "css-loader": "^0.21.0",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.0",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7"
+  }
+}

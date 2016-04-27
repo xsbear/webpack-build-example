@@ -1,0 +1,7 @@
+body {
+    background: #efe1c4;
+}
+.header-bg {
+    height: 80px;
+    background: url(../images/bg.ico)
+}
